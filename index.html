@@ -1,49 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fonts</title> 
+    <title>CSS Lists</title>
     <style>
-            font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+        nav ul li{
+            list-style: devanagari;
+            list-style-type: "🔥";
+            /* background-color: yellow; */
+            /* list-style-position: inside; */
+            border: 2px solid black;
+            /* list-style: disc inside url("https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif"); */
+            /* list-style-image: url("https://user-images.githubusercontent.com/14011726/94132137-7d4fc100-fe7c-11ea-8512-69f90cb65e48.gif"); */
         }
-
-        p {
-            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-            font-family: 'devnagri', sans-serif;
-            font-size: 20px; 
-            /* font-style:italic;
-            font-weight: 500;  */
-            
-        }
-        h2{
-            text-align: center;
-            text-transform: uppercase;
-            text-decoration: underline;
-            text-decoration-color: blue;
-            /* text-decoration-style: dotted; */
-            text-decoration-thickness: 7px ;
-            /* text-indent: 45px; */
-        }
-        .lorem{
-            border: 2px solid red;
-            width: 145px;
-            word-break: break-all;
-            /* text-overflow: ellipsis;
-            overflow: hidden; */
-
-        }
+ 
     </style>
 </head>
-
 <body>
-    <div>
-        <!-- https://codepen.io/web-dot-dev/pen/yLojraG -->
-        <h1>Fonts</h1>
-        <h2>about Fonts</h2>
-        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sequi accusamus quas itaque molestias dolorem quisquam quod, adipisci maxime dolore, mollitia illo officia deserunt voluptatem iure qui. Fugit aliquam possimus aperiam commodi eum amet veniam at vel. Necessitatibus asperiores eos amet laborum dolor, ipsum porro!</p>
-    </div>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
 </body>
-
 </html>
