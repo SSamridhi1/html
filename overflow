@@ -8,7 +8,7 @@
         .box{
             width: 30vw;
             height: 10vw;
-            border: 2px solid blanchedalmond;
+            border: 2px solid blanchedalmond;overflow: scroll;
         }
     </style>
 </head>
